@@ -1,0 +1,31 @@
+body{
+  height: 1000px;
+  background: url(../img/bg.jpg) no-repeat;
+  background-size: cover;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+#parallax-canvas{
+  position: relative;
+  height: 1000px;
+}
+.bx{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: #660066;
+  border: 2px solid #fff;
+}
+#b1{
+  left: 20px;
+}
+#b2{
+  left: 300px;
+  background: #3333ff;
+}
+#b3{
+  left: 600px;
+  background: #0F9D58;
+}
